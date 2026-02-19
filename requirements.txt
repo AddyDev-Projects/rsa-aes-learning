@@ -1,0 +1,4 @@
+# requirements.txt
+# External Python packages required to run this project
+
+cryptography>=41.0.0
