@@ -17,7 +17,13 @@ DO NOT USE IN PRODUCTION
 
 """
 
-from . import prime_checker
+import sys
+from pathlib import Path
+
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+import prime_checker
 import math
 import hashlib
 import secrets
